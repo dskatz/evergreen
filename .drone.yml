@@ -19,7 +19,7 @@ steps:
       target: production
       create_repository: true
       registry: 795250896452.dkr.ecr.us-east-1.amazonaws.com
-      repo: devprod-platform/evergreen-poc
+      repo: devops/evergreen-poc-katz
       tags:
         - git-${DRONE_COMMIT_SHA:0:7}-${DRONE_STAGE_ARCH}
       access_key:
